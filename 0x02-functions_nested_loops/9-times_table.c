@@ -5,7 +5,7 @@
  * Return: ...
  */
 
-void times_tables(void)
+void times_table(void)
 
 {
 
