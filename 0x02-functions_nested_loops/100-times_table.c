@@ -6,14 +6,14 @@
  * @n: the value of the times tables to  be printed
  */
 
-void print_times_tables(int n)
+void print_times_table(int n)
 
 {
-	num, mult, prod;
+	int num, mult, prod;
 
-	if (n >= 0 && n<= 14)
+	if (n >= 0 && n<= 15)
 	{
-	for (num = 0; num <= n;num++)
+	for (num = 0; num <= n; num++)
 	{
 	_putchar('0');
 	for (mult = 1; mult <= n; mult++)
@@ -38,7 +38,7 @@ void print_times_tables(int n)
 	}
 	_putchar((prod % 10) + '0');
 	}
-	_putchar('\n')
+	_putchar('\n');
 	}
 	}
 }
