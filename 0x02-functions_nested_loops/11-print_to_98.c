@@ -7,7 +7,8 @@
  * @n: The number to start from
  * Return: Always 0
  */
-int print_to_98(int n)
+
+void print_to_98(void)
 
 {
 	if(n <= 98)
