@@ -8,7 +8,7 @@
  * Return: void
  */
 
-void print_array(int *a, int *b)
+void print_array(int *a, int n)
 
 {
 	int j;
@@ -16,7 +16,7 @@ void print_array(int *a, int *b)
 	for (j = 0; j < n; j++)
 	{
 	printf("%d", a[j]);
-	if (j != (n -1))
+	if (j != (n - 1))
 	{
 	printf(", ");
 	}
