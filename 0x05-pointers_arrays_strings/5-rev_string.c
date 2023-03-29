@@ -2,7 +2,7 @@
 
 /**
  * rev_string - Reverses str
- * @str: Str to be reversed
+ * @str: String to be modified
  * Returne: void
  */
 
