@@ -5,7 +5,6 @@
  * @n: An intinput pointer
  * Return: zero
  */
-
 void reset_to_98(int *n)
 {
 
