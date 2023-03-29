@@ -3,7 +3,7 @@
 /**
  * swap_int - Swaps the values of teo ints
  * @a: The first int to be swapped
- * b: The second int to be swapped
+ * @b: The second int to be swapped
  * Return: Zero
  */
 
