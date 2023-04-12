@@ -24,14 +24,13 @@ int word_len(char *str)
 }
 
 /**
- * count_word - counts number of words in a str
+ * count_words - counts number of words in a str
  * @str: Str to be searched.
  * Return: Number of words within str
  */
 
 int count_words(char *str)
 {
-	char **strings;
 	int index = 0, words = 0, len = 0;
 
 	for (index = 0; *(str + index); index++)
