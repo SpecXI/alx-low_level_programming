@@ -29,7 +29,7 @@ int word_len(char *str)
  * Return: Number of words within str
  */
 
-int count_words(char * str)
+int count_words(char *str)
 {
 	int index = 0, words = 0, len = 0;
 
@@ -50,8 +50,7 @@ int count_words(char * str)
 /**
  * strtow - SPlits st to words
  * @str: Str to be split
- * Return: If str = NULL, str = "", or the funtion fails - Null.
- * 	Otherwise - A pointer to an array of stings(words).
+ * Return: If str = NULL, str = "", or the funtion fails - Null. Otherwise - A pointer to an array of stings(words).
  */
 
 char **strtow(char *str)
