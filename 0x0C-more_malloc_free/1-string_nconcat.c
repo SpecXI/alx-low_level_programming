@@ -3,7 +3,7 @@
 
 /**
  * string_nconcat - .
- * @s2: .
+ * @s1: .
  * @s2: .
  * @n: .
  * Return: . 
